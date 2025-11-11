@@ -1,0 +1,13 @@
+module.exports = {
+  root: true,
+  extends: ['eslint:recommended'],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  env: {
+    es2021: true,
+    node: true,
+  },
+};
+
