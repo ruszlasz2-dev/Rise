@@ -44,3 +44,4 @@ You **don't need to install PostgreSQL**! Supabase provides PostgreSQL in the cl
 
 That's it! No installation needed! 🎉
 
+

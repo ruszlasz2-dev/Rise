@@ -30,3 +30,4 @@ export function RiseScoreCard({ score }: RiseScoreCardProps) {
 
 
 
+

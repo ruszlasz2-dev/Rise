@@ -54,3 +54,4 @@ postgresql://postgres.giomwabmivzbykloojwj:SupabaseSzonja0217@aws-0-us-west-1.po
 3. Try running: `SELECT version();`
 4. If this works, your project is active and the issue is with the connection string format
 
+

@@ -48,3 +48,4 @@ If you don't have PostgreSQL installed, you have two options:
 ### Option B: Use Supabase (Cloud - Recommended)
 Since your password suggests Supabase, you might want to use that instead!
 
+
