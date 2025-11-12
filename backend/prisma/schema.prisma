@@ -25,11 +25,11 @@ model User {
 
 model Skill {
   id            String   @id @default(cuid())
-  name          String
+  name          String   @unique
   domain        String
   description   String
   icon          String
-  prerequisites String @default("[]")
+  prerequisites String[] @default([])
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
@@ -63,7 +63,7 @@ model Quest {
   difficulty      String
   baseXP          Int
   estimatedMinutes Int
-  prerequisites   String @default("[]")
+  prerequisites   String[] @default([])
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
@@ -93,7 +93,7 @@ model UserQuest {
 
 model Achievement {
   id          String   @id @default(cuid())
-  name        String
+  name        String   @unique
   description String
   icon        String
   category    String
@@ -130,6 +130,5 @@ model XPTransaction {
   @@index([skillId])
   @@index([createdAt])
 }
-
 
 
